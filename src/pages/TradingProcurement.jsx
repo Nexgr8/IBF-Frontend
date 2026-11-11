@@ -391,6 +391,60 @@ export default function TradingProcurement({ lang = 'en' }) {
         </div>
       </section>
 
+      {/* SECTION 4.5: POST-COMMISSIONING ASSET MONITORING WITH NEXUS AI & IOT */}
+      <section className="shell section-spacing reveal-up">
+        <div className="section-header-center">
+          <p className="gold-subtitle">{isAr ? 'المراقبة التشغيلية والتوائم الرقمية' : 'OPERATIONAL MONITORING & DIGITAL TWINS'}</p>
+          <h2 className="section-main-heading">
+            {isAr ? 'مراقبة المعدات والبطاريات بعد التوريد والتشغيل' : 'Post-Commissioning Asset & Battery Monitoring'}
+          </h2>
+        </div>
+        <div className="why-partner-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
+          <div className="why-partner-card reveal-up">
+            <div className="why-icon-box">
+              <Battery size={28} />
+            </div>
+            <h3>{isAr ? 'مراقبة أنظمة UPS والبطاريات' : 'UPS & Battery String Monitoring'}</h3>
+            <p>
+              {isAr
+                ? 'هل تحتاج إلى متابعة تشغيلية مستمرة بعد تركيب الأنظمة؟ راقب أنظمة UPS والبطاريات ومجموعات الخلايا لحظيًا عبر منصة نكسس للذكاء الاصطناعي وإنترنت الأشياء، المنتج التقني المعتمد من IBF.'
+                : 'Need continuous operational visibility once systems are commissioned? Monitor UPS units, battery string impedance, and cell health with Nexus AI & IoT, an authorized technology product of IBF.'}
+            </p>
+            <a
+              href={`https://nexusaiiot.com/${isAr ? 'ar' : 'en'}/solutions/ups-battery-monitoring`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-gold-accent"
+              style={{ marginTop: '1rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.875rem' }}
+            >
+              <span>{isAr ? 'استكشف مراقبة UPS مع نكسس' : 'Explore UPS Monitoring with Nexus'}</span>
+              <ChevronRight size={14} />
+            </a>
+          </div>
+          <div className="why-partner-card reveal-up">
+            <div className="why-icon-box">
+              <Zap size={28} />
+            </div>
+            <h3>{isAr ? 'مراقبة محولات القدرة والمحطات' : 'Power Transformer & Substation Intelligence'}</h3>
+            <p>
+              {isAr
+                ? 'راقب محولات القدرة، الغازات الذائبة (DGA)، والحرارة ومفاتيح الجهد العالي عبر توائم رقمية تفاعلية ثلاثية الأبعاد تدعم الصيانة التنبؤية وكفاءة الشبكات الصناعية.'
+                : 'Monitor power transformers, dissolved gas analysis (DGA), hot-spots, and high-voltage switchgear using interactive 3D digital twins and predictive maintenance analytics.'}
+            </p>
+            <a
+              href={`https://nexusaiiot.com/${isAr ? 'ar' : 'en'}/solutions/transformer-monitoring`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-gold-accent"
+              style={{ marginTop: '1rem', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.875rem' }}
+            >
+              <span>{isAr ? 'استكشف مراقبة المحولات مع نكسس' : 'Explore Transformer Monitoring'}</span>
+              <ChevronRight size={14} />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* SECTION 5: CTA BANNER */}
       <section className="cta-banner-section shell reveal-up">
         <div className="cta-banner-container">

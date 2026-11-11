@@ -264,9 +264,16 @@ export default function IndustrialIoTSolutions({ lang = 'en' }) {
           </div>
 
           <div className="hero-left-content reveal-up">
-            <p className="hero-gold-badge">
-              {isAr ? 'إنترنت الأشياء عبر IBF' : 'NEXUS IOT THROUGH IBF'}
-            </p>
+            <a
+              href={`https://nexusaiiot.com/${isAr ? 'ar' : 'en'}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-gold-badge"
+              style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', cursor: 'pointer' }}
+            >
+              <span>{isAr ? 'مدعوم بواسطة نكسس للذكاء الاصطناعي وإنترنت الأشياء' : 'POWERED BY NEXUS AI & IOT'}</span>
+              <ChevronRight size={13} />
+            </a>
             <h1 className="hero-headline">{isAr ? 'حلول إنترنت الأشياء الصناعي' : 'Industrial IoT Solutions'}</h1>
             <p className="hero-lead-text">
               {isAr
@@ -356,6 +363,45 @@ export default function IndustrialIoTSolutions({ lang = 'en' }) {
               </div>
             )
           })}
+        </div>
+      </section>
+
+      {/* SECTION 3.5: NEXUS AI & IOT FLAGSHIP PLATFORM FEATURE */}
+      <section className="shell section-spacing reveal-up">
+        <div className="section-header-center">
+          <p className="gold-subtitle">{isAr ? 'المنصة التقنية المعتمدة' : 'OUR FLAGSHIP TECHNOLOGY PLATFORM'}</p>
+          <h2 className="section-main-heading">
+            {isAr ? 'منصة نكسس للذكاء الاصطناعي وإنترنت الأشياء والتوائم الرقمية' : 'Nexus AI & IoT: Asset Intelligence & 3D Digital Twins'}
+          </h2>
+        </div>
+        <div className="why-partner-card" style={{ maxWidth: '860px', margin: '0 auto', textAlign: 'center', padding: '2.5rem 2rem' }}>
+          <p style={{ fontSize: '1.05rem', lineHeight: '1.8', marginBottom: '1.5rem', color: 'var(--text-muted, #555)' }}>
+            {isAr
+              ? 'تعتمد IBF في حلول إنترنت الأشياء الصناعي على منصتها التكنولوجية المتخصصة "Nexus AI & IoT" لتقديم توائم رقمية تفاعلية ثلاثية الأبعاد (3D Digital Twins) ومراقبة مستمرة لمحولات القدرة والمولدات ومحطات التحويل الكهربائية بالسعودية.'
+              : 'IBF powers its advanced Industrial IoT offerings through its specialized technology product, Nexus AI & IoT, delivering interactive 3D digital twins, real-time telemetry pipelines, and predictive monitoring for Saudi power transformers, substations, and distributed assets.'}
+          </p>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+            <a
+              href={`https://nexusaiiot.com/${isAr ? 'ar' : 'en'}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-gold-accent"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+            >
+              <span>{isAr ? 'زيارة منصة نكسس للذكاء الاصطناعي' : 'Explore Nexus AI & IoT Platform'}</span>
+              <ChevronRight size={15} />
+            </a>
+            <a
+              href={`https://nexusaiiot.com/${isAr ? 'ar' : 'en'}/solutions/predictive-maintenance`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-btn-outline"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+            >
+              <span>{isAr ? 'حلول الصيانة التنبؤية' : 'Predictive Maintenance Solutions'}</span>
+              <ChevronRight size={15} />
+            </a>
+          </div>
         </div>
       </section>
 

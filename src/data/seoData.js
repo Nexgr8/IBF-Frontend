@@ -1,21 +1,21 @@
 // Centralized SEO, AEO, and GEO metadata repository for IBF Global
 export const siteMetadata = {
-  siteName: 'IBF Global',
+  siteName: 'International Business Front (IBF)',
   domain: 'https://ibf.com.sa',
   defaultOgImage: 'https://ibf.com.sa/og-image.jpg',
   organization: {
-    name: 'IBF Global (International Business Front)',
-    alternateName: 'IBF Commercial & Technology Services',
-    legalName: 'IBF Global Co.',
+    name: 'International Business Front (IBF)',
+    alternateName: 'شركة واجهة الأعمال الدولية',
+    legalName: 'International Business Front Co. | شركة واجهة الأعمال الدولية',
     url: 'https://ibf.com.sa',
     logo: 'https://ibf.com.sa/logo.png',
-    email: 'info@ibf.com.sa',
-    phone: '+966 12 345 6789',
+    email: 'ms@ibf.com.sa',
+    phone: '+966 55 757 1816',
     address: {
-      streetAddress: 'King Abdulaziz Road, Al Shate\'e District',
+      streetAddress: 'Al-Amir Sultan Street',
       addressLocality: 'Jeddah',
-      addressRegion: 'Makkah Region',
-      postalCode: '23511',
+      addressRegion: 'Makkah',
+      postalCode: '23442',
       addressCountry: 'SA',
     },
     geo: {
@@ -26,6 +26,11 @@ export const siteMetadata = {
       'https://www.linkedin.com/company/ibf-global',
       'https://twitter.com/ibf_global',
     ],
+    brand: {
+      name: 'Nexus AI & IoT',
+      url: 'https://nexusaiiot.com',
+      description: 'A technology product of International Business Front (IBF) specializing in industrial asset monitoring and predictive digital twins.',
+    },
   },
 }
 
@@ -98,14 +103,18 @@ export const seoPagesData = {
       canonical: '/en/industries',
     },
     tradingProcurement: {
-      title: 'Industrial Trading & Procurement Services | IBF Global Saudi Arabia',
-      description: 'Global sourcing and reliable delivery of industrial electrical equipment, batteries, chargers, rectifiers, automation components, and spare parts in Saudi Arabia.',
-      keywords: 'industrial procurement Saudi Arabia, electrical equipment supplier Jeddah, battery rectifier trading Saudi, ABB Siemens Schneider supplier',
+      title: 'Industrial Equipment & Electrical Procurement Saudi Arabia | IBF',
+      description: 'Saudi procurement & supply of industrial electrical equipment, UPS systems, industrial batteries, switchgear & automation components across KSA. Request a quote.',
+      keywords: 'industrial procurement Saudi Arabia, electrical equipment supplier Jeddah, UPS battery supply Riyadh, industrial batteries KSA, Schneider Siemens ABB LS Electric distributor Saudi, Hoppecke Eaton Microtex batteries',
       canonical: '/en/solutions/trading-procurement',
       faqs: [
         {
-          question: 'What products does IBF Global trade and procure?',
-          answer: 'IBF Global procures industrial electrical systems, UPS batteries, industrial rectifiers & chargers, control & automation PLCs, power cables, and test & measurement instruments from global tier-1 manufacturers.',
+          question: 'What products does IBF trade and procure in Saudi Arabia?',
+          answer: 'IBF procures industrial electrical systems, switchgear, power transformers, UPS batteries, industrial rectifiers & chargers, control & automation PLCs, power cables, and test & measurement instruments from global tier-1 manufacturers including Eaton, Hoppecke, Microtex, LS Electric, ABB, and Schneider Electric.',
+        },
+        {
+          question: 'Can IBF supply and deliver industrial batteries and UPS systems across Saudi Arabia?',
+          answer: 'Yes, IBF provides turnkey commercial supply, logistics, customs clearance, and delivery to major industrial hubs including Riyadh, Jeddah, Dammam, Jubail, and Yanbu.',
         },
       ],
     },
@@ -116,16 +125,28 @@ export const seoPagesData = {
       canonical: '/en/solutions/ai-digital-solutions',
     },
     iotSolutions: {
-      title: 'Industrial IoT & Smart Automation Solutions | IBF Global',
-      description: 'Connect, monitor, and optimize industrial assets in real-time with IBF Global\'s Industrial IoT sensors, telemetry gateways, and SCADA integration.',
-      keywords: 'Industrial IoT Saudi Arabia, IoT sensors Jeddah, smart factory solutions Saudi, SCADA telemetry integration',
+      title: 'Industrial IoT Telemetry & SCADA Monitoring Saudi Arabia | IBF',
+      description: 'Industrial IoT monitoring, remote asset tracking, and edge telemetry gateways powered by Nexus AI & IoT for Saudi industrial facilities. Request a quotation.',
+      keywords: 'Industrial IoT Saudi Arabia, IoT sensors Jeddah, smart factory solutions Saudi, SCADA telemetry integration, remote asset monitoring Riyadh, Nexus AI IoT',
       canonical: '/en/solutions/iot-solutions',
+      faqs: [
+        {
+          question: 'How does IBF deliver Industrial IoT solutions in Saudi Arabia?',
+          answer: 'IBF delivers end-to-end Industrial IoT solutions utilizing its dedicated technology platform, Nexus AI & IoT, featuring edge telemetry gateways, predictive digital twins, and SCADA sensor integration for critical infrastructure.',
+        },
+      ],
     },
     itServices: {
-      title: 'Managed IT Services & Infrastructure Solutions | IBF Global',
-      description: 'End-to-end managed IT services, cybersecurity compliance, network infrastructure, and cloud server management for Saudi Arabian enterprises.',
-      keywords: 'Managed IT services Jeddah, cybersecurity compliance Saudi, network infrastructure partner, enterprise IT support Saudi Arabia',
+      title: 'Enterprise IT Solutions & Business Email Saudi Arabia | IBF',
+      description: 'Managed IT services, Microsoft 365 licensing, Zoho Mail migration, cloud servers, and data center power infrastructure for Saudi enterprises. Request a quote.',
+      keywords: 'managed IT services Saudi Arabia, Microsoft 365 licensing Riyadh, Zoho mail migration Saudi, business email setup Jeddah, data center infrastructure KSA, enterprise IT support',
       canonical: '/en/solutions/it-services',
+      faqs: [
+        {
+          question: 'Does IBF support Microsoft 365 and business email migrations in Saudi Arabia?',
+          answer: 'Yes, IBF provides licensed Microsoft 365 deployments, Zoho Workplace migrations, enterprise tenant configuration, and ongoing IT support with local bilingual engineers in Saudi Arabia.',
+        },
+      ],
     },
     saudiMarketEntry: {
       title: 'Saudi Market Entry Consultancy & Business Setup | IBF Global',
@@ -224,10 +245,16 @@ export const seoPagesData = {
       canonical: '/ar/industries',
     },
     tradingProcurement: {
-      title: 'خدمات التجارة والمشتريات الصناعية | IBF Global',
-      description: 'التوريد العالمي والموثوق للمعدات الكهربائية الصناعية، البطاريات، المقومات، وأنظمة الأتمتة وقطع الغيار في المملكة العربية السعودية.',
-      keywords: 'مشتريات صناعية السعودية, توريد معدات كهربائية جدة, بطاريات ومقومات',
+      title: 'توريد المعدات الصناعية والكهربائية بالسعودية | IBF',
+      description: 'توريد وشراء المعدات الكهربائية الصناعية، أنظمة UPS، البطاريات الصناعية، ولوحات التوزيع عبر المملكة العربية السعودية. اطلب عرض سعر رسمي.',
+      keywords: 'مشتريات صناعية السعودية, توريد معدات كهربائية جدة, أنظمة UPS وبطاريات الرياض, موزع شنايدر وأيه بي بي السعودية, بطاريات هوبك ومايكروتكس وإيتون',
       canonical: '/ar/solutions/trading-procurement',
+      faqs: [
+        {
+          question: 'ما هي المنتجات الكهربائية والصناعية التي توفرها IBF في السعودية؟',
+          answer: 'توفر شركة واجهة الأعمال الدولية (IBF) التوريد المعتمد لأنظمة UPS، البطاريات الصناعية، القواطع الكهربائية، محولات القدرة، وأنظمة التحكم الآلي من كبرى الشركات العالمية مثل إيتون، هوبك، مايكروتكس، إل إس إلكتريك، شنايدر، وأيه بي بي.',
+        },
+      ],
     },
     aiDigital: {
       title: 'حلول الذكاء الاصطناعي والتحول الرقمي | IBF Global',
@@ -236,16 +263,28 @@ export const seoPagesData = {
       canonical: '/ar/solutions/ai-digital-solutions',
     },
     iotSolutions: {
-      title: 'حلول إنترنت الأشياء (IoT) والأتمتة الذكية | IBF Global',
-      description: 'ربط ومراقبة وتحسين الأصول الصناعية في الوقت الفعلي مع حساسات وبوابات إنترنت الأشياء من IBF Global.',
-      keywords: 'إنترنت الأشياء السعودية, مصانع ذكية جدة, أتمتة صناعية',
+      title: 'حلول إنترنت الأشياء الصناعي والمراقبة عن بُعد بالسعودية | IBF',
+      description: 'حلول إنترنت الأشياء الصناعي ومراقبة الأصول عن بُعد وبوابات التيليميتري المعتمدة على نكسس للمنشآت والمصانع بالسعودية. اطلب عرض سعر.',
+      keywords: 'إنترنت الأشياء الصناعي السعودية, مراقبة الأصول عن بعد الرياض, بوابات التيليميتري جدة, منصة نكسس للذكاء الاصطناعي',
       canonical: '/ar/solutions/iot-solutions',
+      faqs: [
+        {
+          question: 'كيف تدعم IBF مشاريع إنترنت الأشياء الصناعي في المملكة؟',
+          answer: 'تعتمد IBF على منتجها التقني المتخصص (Nexus AI & IoT) لتقديم حلول متكاملة تشمل بوابات التيليميتري، التوائم الرقمية ثلاثية الأبعاد، والمراقبة اللحظية للأصول الحيوية والمحولات والمولدات.',
+        },
+      ],
     },
     itServices: {
-      title: 'خدمات تقنية المعلومات المدارة والبنية التحتية | IBF Global',
-      description: 'خدمات تقنية المعلومات المدارة، الأمن السيبراني، إدارة الشبكات والخوادم للمنشآت والشركات في المملكة العربية السعودية.',
-      keywords: 'تقنية معلومات مدارة جدة, أمن سيبراني السعودية, شبكات خوادم',
+      title: 'حلول تقنية المعلومات وبريد الأعمال بالسعودية | IBF',
+      description: 'خدمات تقنية المعلومات المدارة، ترخيص مايكروسوفت 365، ترحيل زوهو ميل، وإدارة البنية التحتية لمراكز البيانات بالشركات السعودية. اطلب استشارة.',
+      keywords: 'خدمات تقنية معلومات مدارة السعودية, تراخيص مايكروسوفت 365 الرياض, بريد شركات جدة, زوهو ميل السعودية, بنية مراكز البيانات',
       canonical: '/ar/solutions/it-services',
+      faqs: [
+        {
+          question: 'هل تقدم IBF خدمات إعداد وتراخيص مايكروسوفت 365 في السعودية؟',
+          answer: 'نعم، تقدم IBF تراخيص مايكروسوفت 365 الرسمية، ترحيل بريد الشركات إلى سحابة زوهو ميل أو مايكروسوفت، مع دعم فني مستمر وإدارة خوادم محلية.',
+        },
+      ],
     },
     saudiMarketEntry: {
       title: 'استشارات دخول السوق السعودي وتأسيس الشركات | IBF Global',
