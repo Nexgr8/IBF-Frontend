@@ -52,13 +52,13 @@ export default function ITServices({ lang = 'en' }) {
           icon: Server,
         },
         {
-          title: 'خدمات دعم مراكز البيانات',
-          desc: 'نشر البنية التحتية وتركيب المعدات والدعم التشغيلي.',
+          title: 'خدمات دعم مراكز البيانات والبنية التحتية',
+          desc: 'نشر البنية التحتية لمراكز البيانات، قاعات الخوادم، الطاقة الاحتياطية، والدعم التشغيلي.',
           icon: Building2,
         },
         {
-          title: 'حلول الاتصالات الموحدة',
-          desc: 'حلول الصوت والتعاون والاتصال لأماكن العمل الحديثة.',
+          title: 'بريد الأعمال والاتصالات الموحدة (Microsoft 365 & Zoho)',
+          desc: 'حلول البريد الإلكتروني للشركات، تراخيص مايكروسوفت 365، ترحيل زوهو، والصوت والتعاون المؤسسي.',
           icon: MessageSquare,
         },
         {
@@ -94,13 +94,13 @@ export default function ITServices({ lang = 'en' }) {
           icon: Server,
         },
         {
-          title: 'Data Centre Support Services',
-          desc: 'Infrastructure deployment, equipment installation and operational support.',
+          title: 'Data Centre & Infrastructure Support',
+          desc: 'Data hall infrastructure deployment, server rack power, cooling support and operational maintenance.',
           icon: Building2,
         },
         {
-          title: 'Unified Communication Solutions',
-          desc: 'Voice, collaboration and connectivity solutions for modern workplaces.',
+          title: 'Business Email & Unified Communications (M365 & Zoho)',
+          desc: 'Enterprise email solutions, Microsoft 365 licensing, Zoho Mail migrations, voice and collaboration.',
           icon: MessageSquare,
         },
         {
